@@ -89,10 +89,10 @@ npm run dev
  
 ```bash
 # 建立 image
-docker build -t credit-transfer-backend .
+docker build -t credit-transfer .
  
 # 啟動容器
-docker run -p 3000:3000 --env-file .env credit-transfer-backend
+docker run -p 3000:3000 --env-file .env credit-transfer
 ```
 
 ## API 文件
