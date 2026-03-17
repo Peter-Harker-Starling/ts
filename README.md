@@ -2,7 +2,7 @@
 
 以 Node.js + Express + TypeScript 建構的 RESTful API，資料庫使用 PostgreSQL（Supabase）。
 
-**部署網址**：https://ts-thnf.onrender.com
+**部署網址**：https://ts-1-zy17.onrender.com
 >  Render free 方案可能需要 **20–40 seconds** 冷啟動喚醒 (cold start).
 
 ## 專案架構
