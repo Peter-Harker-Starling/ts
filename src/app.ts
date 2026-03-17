@@ -1,15 +1,18 @@
 import express from 'express';
+import dotenv from "dotenv";
 import authRouter from './routes/auth.js';
 import creditTransferRouter from './routes/creditTransfer.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
+
+dotenv.config();
 
 const app = express();
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: 'https://front-nine-amber.vercel.app',
+    origin: process.env.FRONTEND_URL,
     credentials: true
 }));
 
