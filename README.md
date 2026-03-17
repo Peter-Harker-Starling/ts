@@ -85,6 +85,16 @@ npm install
 npm run dev
 ```
 
+## Docker
+ 
+```bash
+# 建立 image
+docker build -t credit-transfer-backend .
+ 
+# 啟動容器
+docker run -p 3000:3000 --env-file .env credit-transfer-backend
+```
+
 ## API 文件
 
 | 方法 | 路徑 | 說明 | 權限 |
